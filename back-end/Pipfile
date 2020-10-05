@@ -11,6 +11,8 @@ django = "*"
 psycopg2-binary = "*"
 python-dotenv = "*"
 djangorestframework = "*"
+gunicorn = "*"
+django-heroku = "*"
 
 [requires]
 python_version = "3.8"
