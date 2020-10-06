@@ -76,8 +76,13 @@ WSGI_APPLICATION = 'developer_verse.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'developerverse',
+        'USER': 'developerverse_user',
+        # At some point, these should be env vari's
+        'PASSWORD': 'developerverse',
+        'HOST': 'localhost',
+        'PORT': '5432'
     }
 }
 
