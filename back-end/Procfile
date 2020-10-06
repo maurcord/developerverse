@@ -1,0 +1,1 @@
+web: gunicorn developer_verse.wsgi --log-file -
